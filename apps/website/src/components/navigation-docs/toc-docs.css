@@ -1,0 +1,22 @@
+.on-this-page {
+  @apply bottom-0 z-20 pb-8;
+  @apply text-base;
+}
+
+@media screen and (min-width: 1280px) {
+  .on-this-page {
+    top: 142px;
+  }
+}
+
+.on-this-page h6 {
+  @apply pb-3 text-center font-bold uppercase;
+}
+
+.on-this-page li {
+  @apply rounded-lg;
+}
+
+.on-this-page-item {
+  @apply block overflow-hidden text-ellipsis whitespace-nowrap px-3 py-2;
+}

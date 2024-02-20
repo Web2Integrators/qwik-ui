@@ -4,5 +4,4 @@ export interface AppState {
   featureFlags?: {
     showFluffy?: boolean;
   };
-  toclink?: string;
 }
